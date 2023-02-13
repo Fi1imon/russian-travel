@@ -1,0 +1,13 @@
+.place {
+    display: grid;
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 456px);
+    grid-template-rows: 152px 460px;
+    column-gap: 40px;
+    row-gap: 48px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.place:nth-last-child(-n + 1) {
+    padding-bottom: 0;
+}

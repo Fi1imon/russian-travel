@@ -1,0 +1,6 @@
+.intro-container {
+    margin: 0 auto;
+    max-width: 984px;
+    display: flex;
+    padding-top: 92px;
+}

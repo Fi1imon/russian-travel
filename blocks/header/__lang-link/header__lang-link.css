@@ -3,6 +3,11 @@
     display: flex;
 }
 
+.header__lang-link a:hover {
+    opacity: .8;
+    transition: opacity .3s ease-in-out;
+}
+
 .header__lang-link a {
     text-decoration: none;
     font-size: 24px;

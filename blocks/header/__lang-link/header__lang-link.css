@@ -23,3 +23,10 @@
 .header__lang-link li:nth-last-child(-n + 1) {
     margin-right: 0;
 }
+
+@media screen and (max-width: 550px){
+    .header__lang-link a {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

@@ -7,6 +7,22 @@
     line-height: 18px;
 }
 
+.footer__link:hover {
+    opacity: .8;
+    transition: opacity .3s;
+}
+
 .footer__link:nth-last-child(-n + 1) {
     margin-right: 0;
+}
+
+@media screen and (max-width: 624px){
+    .footer__link {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .footer__link:nth-last-child(-n + 1) {
+        margin-bottom: 0;
+    }
 }

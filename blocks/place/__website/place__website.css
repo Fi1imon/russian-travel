@@ -3,3 +3,11 @@
     flex-direction: column;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 767px){
+    .place__website {
+        align-self: center;
+        grid-column: 2/span 1;
+        grid-row: 2/span 1;
+    }
+}

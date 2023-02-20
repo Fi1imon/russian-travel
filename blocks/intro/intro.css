@@ -1,7 +1,10 @@
 .intro {
     margin: 0 auto;
     max-width: 984px;
+    max-height: min-content;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     padding-top: 92px;
 }
 
@@ -14,6 +17,12 @@
 @media screen and (max-width: 1023px){
     .intro {
         justify-content: center;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .intro {
         max-width: calc(100% - 32px);
     }
 }

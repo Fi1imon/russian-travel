@@ -1,17 +1,32 @@
 .cover__overlay {
+    width: 100%;
+    background-image: url('../../../images/cover-background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cover__overlay::before {
     content: '';
     display: block;
     height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
     background-color: #2A2C2F;
     opacity: .3;
     z-index: 1;
 }
 
-.cover__overlay:hover {
+.cover__overlay:hover::before {
     opacity: .8;
     transition: opacity .3s;
+}
+
+@media screen and (max-width: 1030px){
+    .cover__overlay {
+        background-size: 1024px 640px;
+    }
 }

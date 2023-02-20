@@ -1,14 +1,4 @@
 .header__lang-link {
-    list-style-type: none;
-    display: flex;
-}
-
-.header__lang-link a:hover {
-    opacity: .8;
-    transition: opacity .3s ease-in-out;
-}
-
-.header__lang-link a {
     text-decoration: none;
     font-size: 24px;
     font-weight: 400;
@@ -16,16 +6,14 @@
     color: #fff;
 }
 
-.header__lang-link li {
-    margin-right: 18px;
-}
 
-.header__lang-link li:nth-last-child(-n + 1) {
-    margin-right: 0;
+.header__lang-link:hover {
+    opacity: .8;
+    transition: opacity .3s ease-in-out;
 }
 
 @media screen and (max-width: 550px){
-    .header__lang-link a {
+    .header__lang-link {
         font-size: 18px;
         line-height: 20px;
     }

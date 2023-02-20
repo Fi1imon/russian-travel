@@ -1,29 +1,26 @@
 .place {
     display: grid;
-    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 456px);
-    grid-template-rows: 152px 460px;
+    grid-template-columns: 460px 1fr;
     column-gap: 40px;
     row-gap: 48px;
     justify-content: center;
     padding-bottom: 80px;
 }
 
-.place:nth-last-child(-n + 1) {
+.place:last-child {
     padding-bottom: 0;
 }
 
 @media screen and (max-width: 1279px){
     .place {
-        grid-template-columns: minmax(440px, 460px) minmax(min-content, 456px);
-        grid-template-rows: 152px minmax(440px, max-content);
+        grid-template-columns: 440px 1fr;
         column-gap: 32px;
     }
 }
 
 @media screen and (max-width: 1023px){
     .place {
-        grid-template-columns: minmax(340px, max-content) minmax(352px, max-content);
-        grid-template-rows: 92px minmax(340px, max-content);
+        grid-template-columns: 340px 1fr;
         column-gap: 28px;
     }
 }

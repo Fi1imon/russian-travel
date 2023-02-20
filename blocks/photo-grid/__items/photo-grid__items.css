@@ -25,7 +25,6 @@
         grid-template-columns: repeat(2, minmax(min-content, max-content));
         grid-template-rows: repeat(6, minmax(min-content, max-content));
         grid-gap: 16px;
-        padding: 88px 0 88px;
 
     }
 }
@@ -36,6 +35,5 @@
         grid-template-columns: repeat(1, minmax(288px, max-content));
         grid-template-rows: repeat(12, minmax(216px, max-content));
         grid-row-gap: 12px;
-        padding: 64px 0 64px;
     }
 }

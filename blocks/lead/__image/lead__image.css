@@ -2,10 +2,19 @@
     width: 100%;
     margin-top: 64px;
     display: block;
+    object-fit: cover;
+    object-position: center;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1024px){
     .lead__image {
         margin-top: 56px;
+    }
+}
+
+/*решил сделать изменение одновременно со шрифтами сверху, чтобы не было лишних дёрганий*/
+@media screen and (max-width: 722px){
+    .lead__image {
+        margin-top: 40px;
     }
 }

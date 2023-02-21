@@ -13,3 +13,10 @@
         line-height: 20px;
     }
 }
+
+/*сделал доп запрос, чтобы одновременно с переносом "России" в title, так больше плавности*/
+@media screen and (max-width: 495px){
+    .lead__subtitle {
+        margin-top: 16px;
+    }
+}
